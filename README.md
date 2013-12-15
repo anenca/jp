@@ -1,6 +1,6 @@
-# zadania  do rozwiazania
 
 
+<h3> Na przedostatnim zjeździe zostaną Państwo poproszeni o napisanie samodzielnie 3 programów. Programy te będą miały wpływ na ocenę z laboratorium</h3>
 
 zadanie 1
 Jakie wyniki otrzyma się po wykonaniu następującego programu?
