@@ -79,6 +79,7 @@ int main () {
 }
 ```
 Zadanie 4
+
 Napisać program, który wczyta
 
   -  liczbę rzeczywistą r>0,
@@ -90,6 +91,7 @@ i znajdzie taki spójny fragment ciągu, którego suma wynosi r:
     ap + ap+1 + ... + aq−1  =  r 
     
 Zadanie 5
+
 Poniższy program drukuje wszystkie rzeczywiste wartości zdefiniowanej w nim funkcji funkcja począwszy od rzeczywistej wartości dol_x do rzeczywistej wartości gora_x z rzeczywistym krokiem krok_x. Wpisać do niego taką definicję funkcji funkcja, żeby ten program drukował tablicę wartości funkcji
 
     a)x3/27 - 2x2/9 + x/3 + 2
@@ -125,6 +127,7 @@ int main () {
 }
 ```
 Zadanie 6
+
 Program:
 ```c
 #include<stdio.h>
