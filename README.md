@@ -1,5 +1,4 @@
 
-
 <h3> Na przedostatnim zjeździe zostaną Państwo poproszeni o napisanie samodzielnie 3 programów. Programy te będą miały wpływ na ocenę z laboratorium</h3>
 
 zadanie 1
@@ -88,13 +87,13 @@ Napisać program, który wczyta
 
 i znajdzie taki spójny fragment ciągu, którego suma wynosi r:
 
-    ap + ap+1 + ... + aq−1  =  r 
+    a_p + a_(p+1) + ... + a_(q−1)  =  r 
     
 Zadanie 5
 
 Poniższy program drukuje wszystkie rzeczywiste wartości zdefiniowanej w nim funkcji funkcja począwszy od rzeczywistej wartości dol_x do rzeczywistej wartości gora_x z rzeczywistym krokiem krok_x. Wpisać do niego taką definicję funkcji funkcja, żeby ten program drukował tablicę wartości funkcji
 
-    a)x3/27 - 2x2/9 + x/3 + 2
+    a)(x^3)/27 - 2(x^2)/9 + x/3 + 2, gdzie x^2 oznacza "x do potegi 2", x^3 -"x do potegi 3".
 
     b)ln(x+1) 
 
