@@ -89,4 +89,38 @@ i znajdzie taki spójny fragment ciągu, którego suma wynosi r:
 
     ap + ap+1 + ... + aq−1  =  r 
     
+Zadanie 5
+Poniższy program drukuje wszystkie rzeczywiste wartości zdefiniowanej w nim funkcji funkcja począwszy od rzeczywistej wartości dol_x do rzeczywistej wartości gora_x z rzeczywistym krokiem krok_x. Wpisać do niego taką definicję funkcji funkcja, żeby ten program drukował tablicę wartości funkcji
 
+    x3/27 - 2x2/9 + x/3 + 2
+
+    ln(x+1) 
+
+Wskazówka do pktu b: żeby mieć dostęp do standardowej funkcji log obliczającej logarytm naturalny, należy
+
+    wpisać na początku programu odwołanie do biblioteki matematycznej: #include<math.h>  oraz
+    do wywołania kompilatora dodać parametr: gcc -o ... -lm 
+```c
+#include<stdio.h>
+#include<math.h>
+
+#define dol_x -0.9
+#define gora_x 8
+#define krok_x 0.1
+
+
+// miejsce na wpisanie definicji funkcji
+
+
+int main () {
+  double x;
+  printf("\nTABLICOWANIE FUNKCJI:\n");
+  printf("\n Argument |   Wartosc   ");
+  printf("\n----------+-------------");
+  for (x=dol_x; x<=gora_x; x=x+krok_x)
+    printf("\n %8.4lf | %10.4lf ", x, funkcja(x));
+  printf("\n\n");
+
+  return 0;
+}
+```
