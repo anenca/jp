@@ -44,9 +44,49 @@ c) 4
 d) 10
 e) -5
 
-Zadanie 3 
-Napisz program, który będzie obliczał pierwiastki kwadratowe z odczytanych liczb. Program powinien odrzucać wartości ujemne i zatrzymać się, gdy otrzyma wartość 0. (Funkcja sqrt z biblioteki math.h oblicza pierwiastek kwadratowy)
 
+Zadanie 3
+
+Przeanalizować program sortowania bąbelkowego z przyśpieszeniem.
+```c
+#include<stdio.h>
+#define ILE 15
+
+int main () {
+  double tab[ILE], x;  int k, n, m;
+  printf("\nSORTOWANIE BABELKOWE Z PRZYSPIESZENIEM");
+  printf("\nPodaj %i liczb rzeczywistych: ", ILE);
+  for (k=0; k<ILE; k=k+1)
+    scanf("%lf", &tab[k]);
+
+  n=ILE;
+  while (n>1) {
+    m=1;
+    for (k=1; k<n; k=k+1)
+      if (tab[k-1] > tab[k]) {
+        x=tab[k-1]; tab[k-1]=tab[k]; tab[k]=x;
+        m=k;
+      }
+    n=m;
+  }
+  
+  printf("\nWynik sortowania:\n");
+  for (k=0; k<ILE; k=k+1)
+    printf("  %lf\n", tab[k]);
+  printf("\n");
+
+  return 0;
+}
+```
 Zadanie 4
-Napisz funkcję, która będzie otrzymywać jako argumenty dwie liczby naturalne, i będzie zwracać ich sumę.
+Napisać program, który wczyta
+
+  -  liczbę rzeczywistą r>0,
+  -  liczbę naturalną n,
+  -  ciąg długości n liczb rzeczywistych dodatnich (to jest ważne założenie) a0,a1,...,an−1 
+
+i znajdzie taki spójny fragment ciągu, którego suma wynosi r:
+
+    ap + ap+1 + ... + aq−1  =  r 
+    
 
