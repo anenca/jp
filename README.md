@@ -212,3 +212,7 @@ c) Użyć tego samego programu do narysowania wykresu funkcji
     f(x) = x * sin x 
 
 Ew. pozmieniać wartości stałych na początku programu, tak żeby wykres wyszedł ,,przekonujący''.
+
+Zadanie 7
+<a href="https://inf.ug.edu.pl/~stefan/Dydaktyka/WstepDoProg/Slajdy/lab-zadania3.pdf"> Zadania z funkcji do rozwiązania
+</a>
