@@ -202,7 +202,7 @@ int main () {
   return 0;
 }
 ```
-drukuje gwiazdkami wykres funkcji z pktu 1b powyżej. 
+drukuje gwiazdkami wykres funkcji z pktu 5b powyżej. 
 a)Zapoznać się z nim i dobrze zrozumieć jego działanie. Sprawdzić, jak reaguje program na zmianę stałych zdefiniowanych na jego początku.
 
 b)Zmodyfikować program tak , żeby dodatkowo drukował kółeczkami (czyli literami 'o') wykres funkcji z pktu 5a.
